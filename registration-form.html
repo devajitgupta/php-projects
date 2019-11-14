@@ -1,0 +1,56 @@
+<html>
+<head><style>
+form{text-align:center;
+margin-top:100px;
+}
+body{
+border-style:2px solid;
+}
+</style></head>
+<body>
+<div class="container">
+<form method="post" action="form_action.php"enctype="multipart/form-data">
+Name:<input type="text" name="name"size="">
+</br>
+</br>
+E-mail:<input type="email" name="email"size="">
+</br>
+</br>
+Password:<input type="password" name="password"size="">
+</br>
+</br>
+Gender: Male<input type="radio" name="gender"value="Male"checked>
+Female:<input type="radio" name="gender"value="Female">
+Other:<input type="radio" name="gender"value="Other">
+</br>
+</br>
+City: <select>
+<option value="Choose Your City">Choose Your City</option>
+<option value="Lucknow">Lucknow</option>
+<option value="Kanpur">Kanpur</option>
+<option value="Other">Other</option>
+</select>
+</br>
+</br>
+DOB:<input type="date"name="date">
+</br>
+</br>
+Hobby: Cricket<input type="checkbox"name="hobby" value="Cricket">
+Chess<input type="checkbox"name="hobby" value="Chess">
+Hockey<input type="checkbox"name="hobby" value="Hockey">
+</br>
+</br>
+Address:
+<br>
+<textarea type="text" name="address"></textarea>
+<br>
+</br>
+<input type="submit"name="btn"value="submit">
+<br>
+<br>
+<input type="file" name="upload">
+</form>
+</div>
+</body>
+
+</html>
