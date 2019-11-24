@@ -23,7 +23,7 @@ echo "<br>";
 echo $_FILES["upload"]["size"]; 
 echo "<br>";					     
 echo $_FILES["upload"]["error"];
-echo "<br>";						      
+echo "<br>";
 
 
 ?>
